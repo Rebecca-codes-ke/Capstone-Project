@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Our Products</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Liquor</h2>
+      <div class="product-list">
+        <div class="product" onclick="addToCart('Johnnie Walker Black Label ', 3800)">
+          <h3>Johnnie Walker Black Label</h3><p>Ksh. 3800</p>
+          
+        </div>
+        <div class="product" onclick="addToCart('Tanqueray Dry Gin', 2500)">
+          <h3>Tanqueray Dry Gin</h3><p>Ksh. 2500</p>
+        </div>
+        <div class="product" onclick="addToCart('Jameson Irish Whiskey', 3200)">
+          <h3>Jameson Irish Whiskey</h3><p>Ksh. 3200</p>
+        </div>
+        <div class="product" onclick="addToCart('Hennesy VS', 6500)">
+          <h3>Hennesy VS</h3><p>Ksh. 6500</p>
+        </div>
+        <div class="product" onclick="addToCart('Captain Morgan', 2200)">
+          <h3>Captain Morgan</h3><p>Ksh. 2200</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2> X-Booster Caffeine Pouches</h2>
+      <div class="product-list">
+        <div class="product" onclick="addToCart('Coffee and Caramel- Strong', 700)">
+          <h3>Coffee and Caramel - Strong</h3><p>Ksh. 700</p>
+        </div>
+        <div class="product" onclick="addToCart('Bubble Gum  - Strong', 700)">
+          <h3>Bubble Gum - Strong</h3><p>Ksh. 700</p>
+        </div>
+        <div class="product" onclick="addToCart('Energy Drink - Strong', 700)">
+          <h3>Energy Drink - Strong</h3><p>Ksh. 700</p>
+        </div>
+        <div class="product" onclick="addToCart('Cool Mint - Strong', 700)">
+          <h3>Cool Mint - Strong</h3><p>Ksh. 700</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2> Hart Vapes - Rechargeable</h2>
+      <div class="product-list">
+        <div class="product" onclick="addToCart('Hart - Manhattan Mint', 1800)"><h3>Manhattan Mint</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Strawberry Cosmo', 1800)"><h3>Strawberry Cosmo</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Blueberry Razz Ice', 1800)"><h3>Blueberry Razz Ice</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Pineapple Ice', 1800)"><h3>Pineapple Ice</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Peach Ice', 1800)"><h3>Peach Ice</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Polar Ice', 1800)"><h3>Polar Energy</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Grape Ice', 1800)"><h3>Grape Ice</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Ice Appletini', 1800)"><h3>Ice Appletini</h3><p>Ksh. 1800</p></div>
+        <div class="product" onclick="addToCart('Hart - Spritz', 1800)"><h3>Spritz</h3><p>Ksh. 1800</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2> Hart Vapes - Non-Rechargeable</h2>
+      <div class="product-list">
+        <div class="product" onclick="addToCart('Hart - Blueberry Ice', 999)"><h3>Blueberry Ice</h3><p>Ksh. 999</p></div>
+        <div class="product" onclick="addToCart('Hart - Strawberry Ice', 999)"><h3>Strawberry Ice</h3><p>Ksh. 999</p></div>
+        <div class="product" onclick="addToCart('Hart - Watermelon Ice', 999)"><h3>Watermelon Ice</h3><p>Ksh. 999</p></div>
+        <div class="product" onclick="addToCart('Hart - Manhattan Mint', 999)"><h3>Manhattan Mint</h3><p>Ksh. 999</p></div>
+        <div class="product" onclick="addToCart('Hart - Grape Ice', 999)"><h3>Grape Ice</h3><p>Ksh. 999</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Twist Liquor Store. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
